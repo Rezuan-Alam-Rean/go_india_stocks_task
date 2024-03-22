@@ -7,8 +7,8 @@ import { IoPersonSharp } from "react-icons/io5";
 import { IoChatbox } from "react-icons/io5";
 import { IoFilterCircleSharp } from "react-icons/io5";
 import DiscussionForum from '../ui/DiscussionForum';
+import MarketStories from '../ui/MarketStories';
 
-// Import your icons from react-icons here
 
 const Drawer = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +43,7 @@ const Drawer = () => {
                     </a>
                     {/* Add more sidebar links with icons and text as needed */}
 
-                   
+
 
                     {/* New links */}
                     <a href="#" className="flex items-center py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 hover:text-white">
@@ -79,8 +79,11 @@ const Drawer = () => {
             )}
 
             {/* Content */}
-            <div className="">
-                <DiscussionForum/>
+            <div className=" flex gap-x-10 ">
+
+
+                <DiscussionForum />
+                <MarketStories />
             </div>
 
             {/* Toggle Button */}

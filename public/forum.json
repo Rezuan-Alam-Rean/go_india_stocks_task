@@ -2,9 +2,9 @@
     {
       "id": "001",
       "name": "Alice Smith",
-      "description": "Just shared my latest art project!",
+      "description": "Just shared my latest art project! This can happen for various reasons, often related to syntax errors, import issues, or other problems in your code that prevent it from being executed properly.",
       "sector": "Arts",
-      "time": "s",
+      "time": "1",
       "react": "98",
       "comment": "15",
       "watch": "203"
@@ -12,9 +12,9 @@
     {
       "id": "002",
       "name": "Bob Johnson",
-      "description": "Check out my new blog post on sustainable living.",
+      "description": "Check out my new blog post on sustainable living.This can happen for various reasons, often related to syntax errors, import issues, or other problems in your code that prevent it from being executed properly.",
       "sector": "Lifestyle",
-      "time": "s",
+      "time": "3",
       "react": "150",
       "comment": "40",
       "watch": "560"
@@ -22,9 +22,9 @@
     {
       "id": "003",
       "name": "Carol Lee",
-      "description": "Excited to announce I'm starting a podcast!",
+      "description": "Excited to announce I'm starting a podcast! This can happen for various reasons, often related to syntax errors, import issues, or other problems in your code that prevent it from being executed properly.",
       "sector": "Media",
-      "time": "s",
+      "time": "2",
       "react": "230",
       "comment": "70",
       "watch": "800"
@@ -32,9 +32,9 @@
     {
       "id": "004",
       "name": "Dave Brown",
-      "description": "My thoughts on the latest tech trends.",
+      "description": "My thoughts on the latest tech trends.This can happen for various reasons, often related to syntax errors, import issues, or other problems in your code that prevent it from being executed properly.",
       "sector": "Technology",
-      "time": "s",
+      "time": "4",
       "react": "120",
       "comment": "25",
       "watch": "410"

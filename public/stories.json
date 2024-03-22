@@ -3,19 +3,19 @@
       "id": "101",
       "title": "Sunset Boulevard",
       "description": "A breathtaking view of the sunset over the cityscape.",
-      "image": "placeholder_for_image_url"
+      "image": "https://media.istockphoto.com/id/516180836/photo/green-rice-fild-with-evening-sky.jpg?s=612x612&w=0&k=20&c=ctpEGZYCM8-ST1YuJR99vcOInfOnIo4ghZolX18EK8Y="
     },
     {
       "id": "102",
       "title": "Gourmet Delights",
       "description": "An array of gourmet dishes that are as delightful to look at as they are to eat.",
-      "image": "placeholder_for_image_url"
+      "image": "https://images.pexels.com/photos/461960/pexels-photo-461960.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
     },
     {
       "id": "103",
       "title": "Tech Innovations",
       "description": "The latest breakthroughs in technology showcased at the annual tech expo.",
-      "image": "placeholder_for_image_url"
+      "image": "https://cdn.pixabay.com/photo/2014/01/17/19/01/tree-247122_640.jpg"
     }
   ]
   
