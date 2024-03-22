@@ -79,7 +79,7 @@ const Drawer = () => {
             )}
 
             {/* Content */}
-            <div className=" flex gap-x-10 ">
+            <div className={` hidden  md:flex gap-x-8 ${isOpen ? 'ml-72' : 'ml-32'} `}>
 
 
                 <DiscussionForum />
