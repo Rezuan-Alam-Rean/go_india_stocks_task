@@ -1,0 +1,21 @@
+[
+    {
+      "id": "101",
+      "title": "Sunset Boulevard",
+      "description": "A breathtaking view of the sunset over the cityscape.",
+      "image": "placeholder_for_image_url"
+    },
+    {
+      "id": "102",
+      "title": "Gourmet Delights",
+      "description": "An array of gourmet dishes that are as delightful to look at as they are to eat.",
+      "image": "placeholder_for_image_url"
+    },
+    {
+      "id": "103",
+      "title": "Tech Innovations",
+      "description": "The latest breakthroughs in technology showcased at the annual tech expo.",
+      "image": "placeholder_for_image_url"
+    }
+  ]
+  

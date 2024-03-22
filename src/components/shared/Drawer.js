@@ -6,6 +6,7 @@ import { IoNotificationsSharp } from "react-icons/io5";
 import { IoPersonSharp } from "react-icons/io5";
 import { IoChatbox } from "react-icons/io5";
 import { IoFilterCircleSharp } from "react-icons/io5";
+import DiscussionForum from '../ui/DiscussionForum';
 
 // Import your icons from react-icons here
 
@@ -78,8 +79,8 @@ const Drawer = () => {
             )}
 
             {/* Content */}
-            <div className="flex-1 p-10 text-2xl font-bold">
-                <p>Content goes here.</p>
+            <div className="">
+                <DiscussionForum/>
             </div>
 
             {/* Toggle Button */}
