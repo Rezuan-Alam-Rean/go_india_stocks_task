@@ -4,8 +4,7 @@ import Drawer from "@/components/shared/Drawer";
 export default function Home() {
   return (
     <div>
-      <Drawer/>
-      <p>welcome</p>
+      
     </div>
   );
 }
