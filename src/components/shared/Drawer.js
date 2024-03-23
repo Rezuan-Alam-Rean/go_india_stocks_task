@@ -27,9 +27,15 @@ const Drawer = () => {
                             <IoPersonSharp size={24} />
                             <span className="ml-2">Hello, User</span>
                         </div>
-                        <IoNotificationsSharp size={24} />
+                        <div>
+                            <IoNotificationsSharp size={24} />
+                            <span className="h-2 w-2 bg-red-700 top-5 right-5 absolute rounded-full b border-[1px] border-white"></span>
+                            <span className="h-3 w-3 bg-red-800 top-5 right-5  absolute rounded-full animate-ping"></span>
 
-                        
+                        </div>
+
+
+
                     </div>
                     <nav className="mt-10">
                         <a href="#" className="flex items-center py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 hover:text-white">
@@ -63,17 +69,24 @@ const Drawer = () => {
 
                 {/* Top Navbar for small devices */}
                 <div className="md:hidden">
-                    <nav className="flex justify-around items-center bg-black py-5">
-                        <button onClick={() => setActiveTab('DiscussionForum')} className="transition text-white text-lg duration-200 hover:bg-blue-700 hover:text-white">
+                    <nav className="flex justify-around items-center bg-blue-950 py-5">
+                        <button
+                            onClick={() => setActiveTab('DiscussionForum')}
+                            className={`transition text-lg duration-200 ${activeTab === 'DiscussionForum' ? 'border-b-2 text-white border-red-500' : 'text-white hover:bg-blue-700 hover:text-white'}`}
+                        >
                             Discussion Forum
                         </button>
-                        <button onClick={() => setActiveTab('MarketStories')} className="transition text-white text-lg duration-200 hover:bg-blue-700 hover:text-white">
+                        <button
+                            onClick={() => setActiveTab('MarketStories')}
+                            className={`transition text-lg duration-200 ${activeTab === 'MarketStories' ? 'border-b-2 text-white border-red-500' : 'text-white hover:bg-blue-700 hover:text-white'}`}
+                        >
                             Market Stories
                         </button>
                     </nav>
                     {activeTab === 'DiscussionForum' && <DiscussionForum />}
                     {activeTab === 'MarketStories' && <MarketStories />}
                 </div>
+
 
                 {/* Overlay */}
                 {isOpen && (

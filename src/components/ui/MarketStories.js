@@ -8,7 +8,7 @@ const MarketStories = () => {
 
         <div>
 
-            <h1 className='text-3xl mt-5 mb-5 text-center font-bold text-red-900'>Market Stories</h1>
+            <h1 className='text-3xl mt-5 mb-5 bg-slate-200 text-center p-1 font-bold text-red-900'>MARKET STORIES </h1>
             <div className=''>
 
                 {data.map((item, index) => (
